@@ -10,15 +10,528 @@
 
 <body>
 <header class="header">
-  <div class="header__inner">
-    
+  <div class="container">
+    <div class="header__inner">
+      <img class="logo" src="images/logo.svg" alt="logo image">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Menu</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">About</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Feature</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Gallary</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__link" href="#">Buy now</a>
+    </div>
   </div>
+ 
 </header>
 <main class="main">
-
+  <section class="product">
+    <div class="container">
+      <div class="product__inner">
+        <div class="product__content">
+          <h1 class="product__title">
+            Life is better in running 
+            <span>shoes</span>.
+          </h1>
+          <p class="product__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices
+          </p>
+        </div>
+        <div class="product__slider">
+          <div class="product__slider-item">
+            <img class="product__image" src="images/slider/1.jpg" alt="product image" >
+          </div>
+          <div class="product__slider-item">
+            <img class="product__image" src="images/slider/1.jpg" alt="product image" >
+          </div>
+          <div class="product__slider-item">
+            <img class="product__image" src="images/slider/1.jpg" alt="product image" >
+          </div>
+        </div>
+      </div>
+      <div class="product__wrapper">
+        <div class="product__items">
+          <div class="product__item">
+            <div class="product__category">
+              Brand
+            </div>
+            <select class="product__select">
+              <option class="product__option">Puma</option>
+              <option class="product__option">Nike</option>
+              <option class="product__option">Adidas</option>
+              <option class="product__option">Puma</option>
+            </select>
+          </div>
+          <div class="product__item">
+            <div class="product__category">
+              Person
+            </div>
+            <select class="product__select">
+              <option class="product__option">man</option>
+              <option class="product__option">woman</option>
+              <option class="product__option">trans</option>
+              <option class="product__option">gender?</option>
+            </select>
+          </div>
+          <div class="product__item">
+            <div class="product__category">
+              Size
+            </div>
+            <select class="product__select">
+              <option class="product__option">large</option>
+              <option class="product__option">medium</option>
+              <option class="product__option">small</option>
+              <option class="product__option">none</option>
+            </select>
+          </div>
+          <div class="product__item">
+            <div class="product__category">
+              Price
+            </div>
+            <select class="product__select">
+              <option class="product__option">$150</option>
+              <option class="product__option">$100</option>
+              <option class="product__option">$50</option>
+              <option class="product__option">$10</option>
+            </select>
+          </div>
+        </div>
+        <button class="product__button" type="submit">Buy now</button>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <div class="features__inner">
+        <div class="features__content">
+          <div class="features__subtitle">
+            Video
+          </div>
+          <h2 class="features__title title">
+            Desire the feel of satisfaction.
+          </h2>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices commauris risus.
+          </p>
+        </div>
+        <div class="features__wrapper">
+          <img class="features__img" src="images/video/1.jpg" alt="video image">
+          <a class="features__link" href="#" style="background-image: url('images/video/2.jpg');">
+            <img class="features__image" src="images/icons/play-icon.svg" alt="play icon">
+          </a>
+        </div>
+      </div>
+      <div class="features__subtitle">
+        Feature
+      </div>
+      <h2 class="features__title title">
+        We have best feature in Shoes
+      </h2>
+      <div class="features__items">
+        <div class="features__item">
+          <div class="features__item-wrapper">
+            <img class="features__image" src="images/icons/star.svg" alt="star image">
+          </div>
+          <div class="features__item-title">
+            Quality
+          </div>
+          <p class="features__item-text">
+            Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul
+          </p>
+          <a class="features__item-link" href="#" >Read more</a>
+        </div>
+        <div class="features__item">
+          <div class="features__item-wrapper">
+            <img class="features__image" src="images/icons/1.svg" alt="line image">
+          </div>
+          <div class="features__item-title">
+            Quality
+          </div>
+          <p class="features__item-text">
+            Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul
+          </p>
+          <a class="features__item-link" href="#" >Read more</a>
+        </div>
+        <div class="features__item">
+          <div class="features__item-wrapper">
+            <img class="features__image" src="images/icons/2.svg" alt="speed image">
+          </div>
+          <div class="features__item-title">
+            Quality
+          </div>
+          <p class="features__item-text">
+            Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul
+          </p>
+          <a class="features__item-link" href="#" >Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallary">
+    <div class="container">
+      <div class="gallary__subtitle">
+        Gallary
+      </div>
+      <h2 class="gallary__title title">40+ YEARS’ EXPERIENCE</h2>
+      <div class="gallary__wrapper">
+        <span class="gallary__category">
+          Categories:
+        </span>
+        <div class="gallary__categories">
+          <button class="gallary__btn" type="button" data-filter="all">All</button>
+          <button class="gallary__btn mixitup-control-active" type="button" data-filter=".category-a">Male</button>
+          <button class="gallary__btn" type="button" data-filter=".category-b">Female</button>
+          <button class="gallary__btn" type="button" data-filter=".category-c">Kids</button>
+        </div>
+      </div>
+      <div class="gallary__items">
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/2.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma RS-X Bold
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $200
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/3.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Sneakers
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $180
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/4.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Ferrari
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $190
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/5.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Running
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $200
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/2.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma RS-X Bold
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $200
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/3.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Sneakers
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $180
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/4.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Ferrari
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $190
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/5.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Running
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $200
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/2.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma RS-X Bold
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $200
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/3.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Sneakers
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $180
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/4.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Ferrari
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $190
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+        <div class="gallary__item">
+          <img class="gallary__img" src="images/slider/5.jpg" alt="gallary image" >
+          <div class="gallary__name">
+            Puma Running
+          </div>
+          <div class="gallary__size">
+            <span>Size:</span>
+            Dubble-XL
+          </div>
+          <div class="gallary__price">
+            <span>Price:</span>
+            $200
+          </div>
+          <button class="gallary__button" type="submit">Buy now</button>
+        </div>
+      </div>
+      <h2 class="gallary__title title">40+ years’ experience</h2>
+      <div class="gallary__slider">
+        <div class="gallary__slider-item">
+          <img class="gallary__image" src="images/slider/6.jpg" alt="content image">
+          <div class="gallary__content">
+            <img class="gallary__avatar" src="images/avatars/avatar" alt="avatar image">
+            <div class="gallary__content-title">
+              Their services was best and friendly
+            </div>
+            <p class="gallary__content-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.
+            </p>
+            <div class="gallary__content-name">
+              Abram Korsgaard
+            </div>
+            <div class="gallary__content-position">
+              Athletic
+            </div>
+          </div>
+        </div>
+        <div class="gallary__slider-item">
+          <img class="gallary__image" src="images/slider/6.jpg" alt="content image">
+          <div class="gallary__content">
+            <img class="gallary__avatar" src="images/avatars/avatar" alt="avatar image">
+            <div class="gallary__content-title">
+              Their services was best and friendly
+            </div>
+            <p class="gallary__content-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.
+            </p>
+            <div class="gallary__content-name">
+              Abram Korsgaard
+            </div>
+            <div class="gallary__content-position">
+              Athletic
+            </div>
+          </div>
+        </div>
+        <div class="gallary__slider-item">
+          <img class="gallary__image" src="images/slider/6.jpg" alt="content image">
+          <div class="gallary__content">
+            <img class="gallary__avatar" src="images/avatars/avatar" alt="avatar image">
+            <div class="gallary__content-title">
+              Their services was best and friendly
+            </div>
+            <p class="gallary__content-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.
+            </p>
+            <div class="gallary__content-name">
+              Abram Korsgaard
+            </div>
+            <div class="gallary__content-position">
+              Athletic
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="form">
+    <div class="container">
+      <div class="form__inner">
+        <img class="form__image" src="images/content/1.jpg" alt="content image">
+        <div class="form__content">
+          <h2 class="form__title title">Sign up to our Newsletter</h2>
+          <p class="form__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sagittis, Atiam lorem sed justo amet viverra in a.
+          </p>
+          <form  class="form__form" action="#">
+            <input class="form__input" type="text">
+            <button class="form__button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 <footer class="footer">
-
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__items">
+        <div class="footer__item">
+          <img class="logo" src="images/logo.svg" alt="logo image">
+          <address class="footer__address">
+            10 New Town Street, V2 5NW, Newstate, USA.
+          </address>
+          <a class="footer__mail" href="mailto:shovasatkhira88@gmail.com">shovasatkhira88@gmail.com</a>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-image" src="images/icons/facebook.svg" alt="facebook icon">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-image" src="images/icons/instagram.svg" alt="instagram icon">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-image" src="images/icons/twitter.svg" alt="twitter icon">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-image" src="images/icons/google.svg" alt="google icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-title">
+            Support
+          </div>
+          <a class="footer__link" href="#">
+            Privacy & Policy
+          </a>
+          <a class="footer__link" href="#">
+            Terms & Condition
+          </a>
+          <a class="footer__link" href="#">
+            Support System
+          </a>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-title">
+            Contact us
+          </div>
+          <p class="footer__text">
+            Lorem ipsum dolor sit amet consectetur adipiscin.
+          </p>
+          <form class="footer__form" action="#">
+            <input class="footer__input" type="text">
+            <button class="footer__button" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-title">
+            Our services
+          </div>
+          <a class="footer__link" href="#">
+            About us
+          </a>
+          <a class="footer__link" href="#">
+            Feature
+          </a>
+          <a class="footer__link" href="#">
+            Gallary
+          </a>
+        </div>
+      </div>
+      <div class="footer__copy">
+        Copyright 2021 The PUMA All Rights Reserved.
+      </div>
+    </div>
+  </div>
 </footer>
   <script src="js/main.min.js"></script>
 </body>
