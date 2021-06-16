@@ -3,6 +3,9 @@ body{
   height: 100%;
 }
 body{
+  @extend %roboto-400;
+  font-size: 16px;
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
   color: $default;
@@ -15,14 +18,26 @@ img{
   object-fit: cover;
 }
 .container{
-  max-width: 1270px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .title{
-  font-size: 30px;
-  line-height: 30px;
+  @extend %roboto-500;
+  font-size: 44px;
+  line-height: 1.3;
   color: $title;
 }
+.subtitle{
+  @extend %roboto-500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $accent;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+a{
+  color: $link;
+}
+
 

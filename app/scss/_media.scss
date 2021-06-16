@@ -1,0 +1,249 @@
+@media (max-width: 1260px){
+  .features{
+    &__img{
+      transform: translateX(0);
+    }
+  }
+}
+@media (max-width: 1100px){
+  .gallary{
+    &__content{
+      margin-left: 30px;
+    }
+  }
+  .form{
+    &__input{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 980px){
+  .menu{
+    &__list{
+      transform: translateX(0);
+    }
+  }
+  .product{
+    &__inner{
+      display: block;
+    }
+    &__content{
+      max-width: 100%;
+      margin: 0 auto 30px;
+    }
+    &__slider{
+      margin: 0 auto;
+    }
+    &__wrapper{
+      max-width: 100%;
+    }
+    &__item:not(:first-child){
+      margin-left: 15px;
+      padding-left: 20px;
+    }
+  }
+  .features{
+    &__inner{
+      display: block;
+    }
+    &__content{
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__img,
+    &__link{
+      margin: 0 auto;
+    }
+    &__link{
+      margin-top: -260px;
+    }
+    &__items{
+      grid-template-columns: repeat(1,1fr);
+      -ms-grid-columns: repeat(1, 1fr);
+    }
+  }
+  .gallary{
+    &__image{
+      width: 360px;
+      height: 230px;
+    }
+    &__content{
+      margin-left: 15px;
+    }
+    &__avatar,
+    &__content-title,
+    &__content-text,
+    &__content-name{
+      margin-bottom: 15px;
+    }
+  }
+  .form{
+    &__inner{
+      display: block;
+    }
+    &__image,
+    &__content{
+      text-align: center;
+      margin: 0 auto;
+    }
+    &__form{
+      justify-content: center;
+    }
+  }
+  .footer{
+    &__items{
+      grid-template-columns: repeat(2, 1fr);
+      -ms-grid-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+    }
+    &__item{
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 700px){
+  .menu{
+    &__list{
+      transform: translateY(-200%);
+      position: absolute;
+      top: 140px;
+      width: 100%;
+      left: 0;
+      flex-direction: column;
+      align-items: center;
+      z-index: 5;
+      transition: transform 0.5s ease;
+      background-color: $bg;
+      &.menu__list--active{
+        transform: translateY(0);
+        transition: transform 0.5s ease;
+      }
+    }
+      &__item{
+      width: 100%;
+      padding: 0 15px;
+      text-align: center;
+      margin-bottom: 10px;
+     }
+     &__item:not(:first-child){
+       margin-left: 0;
+     }
+    &__link{
+      padding: 5px 0;
+      display: block;
+     }
+      &__btn{
+      display: block;
+    }
+  }
+  .product{
+    &__slider{
+      width: 80%;
+    }
+    &__items{
+      display: block;
+      width: 80px;
+    }
+    &__item{
+      margin-bottom: 30px;
+    }
+    &__item:not(:first-child){
+      margin-left: 0;
+      padding-left: 0;
+      &::before{
+        display: none;
+      }
+    }
+    &__wrapper{
+      min-height: 400px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .features{
+    &__img{
+      display: none;
+    }
+    &__link{
+      margin-top: 0;
+    }
+  }
+  .gallary{
+    &__slider-item{
+      display: block!important;
+    }
+    &__content{
+      text-align: center;
+    }
+    &__avatar{
+      margin: 30px auto;
+    }
+    &__image{
+      margin: 0 auto;
+    }
+    &__item{
+      margin: 0 auto;
+    }
+  }
+  .prev-arrow,
+  .next-arrow{
+    top: -30px;
+  }
+  .arrow-prev,
+  .arrow-next{
+    top: -60px;
+  }
+  .footer{
+    &__items{
+      grid-template-columns: repeat(1, 1fr);
+      -ms-grid-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+    }
+    &__item{
+      margin: 0;
+    }
+
+    &__input{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 430px){
+  .header{
+    &__link{
+      display: none;
+    }
+  }
+  .product{
+    &__button{
+      font-size: 14px;
+    }
+  }
+  .arrow-right{
+    top: 80%;
+    transform: translateY(20%);
+    right: 30%;
+  }
+  .features{
+    &__link{
+      min-height: 200px;
+    }
+    &__image-icon{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .gallary{
+    &__categories{
+      display: block;
+    }
+    &__btn{
+      display: block;
+      margin-bottom: 30px;
+    }
+    &__btn:not(:first-child){
+      margin-left: 0;
+    }
+  }
+}
